@@ -1,0 +1,41 @@
+<main class="container">
+  <h1>Contact</h1>
+  <p>
+    Un projet, une question, une idée à explorer&nbsp;?  
+    Je serai ravie d’en discuter avec vous.
+  </p>
+
+  <div class="card" style="max-width:720px;">
+    <h2>Me joindre directement</h2>
+    <p>
+      📧 Email : 
+      <a href="mailto:contact@plume-et-conseil.com">contact@plume-et-conseil.com</a><br>
+      💼 LinkedIn : 
+      <a href="https://www.linkedin.com/in/victoria-fargier" target="_blank" rel="noopener nofollow">
+        linkedin.com/in/victoria-fargier
+      </a>
+    </p>
+  </div>
+
+  <div class="card" style="max-width:860px;">
+    <h2>Formulaire de contact</h2>
+    <p>Vous pouvez aussi me laisser un message directement via ce formulaire sécurisé&nbsp;:</p>
+    <!-- Embed Tally -->
+    <iframe
+      src="https://tally.so/r/mZ01Zy?transparentBackground=1&hideTitle=1"
+      width="100%"
+      height="800"
+      frameborder="0"
+      marginheight="0"
+      marginwidth="0"
+      title="Formulaire de contact Plume & Conseil"
+      style="border:1px solid #eee; border-radius:16px;"
+    ></iframe>
+    <p style="font-size:14px; color:#666; margin-top:8px;">
+      Si le formulaire n’apparaît pas, cliquez ici&nbsp;: 
+      <a href="https://tally.so/r/mZ01Zy" target="_blank" rel="noopener nofollow">
+        ouvrir le formulaire Tally
+      </a>.
+    </p>
+  </div>
+</main>
