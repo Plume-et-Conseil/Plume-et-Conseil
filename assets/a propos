@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>À propos — Plume & Conseil</title>
+  <meta name="description" content="Plume & Conseil : une voix chaleureuse, élégante et accessible, au service de l’humain." />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <header class="site">
+    <div class="container" style="display:flex;align-items:center;justify-content:space-between;">
+      <a href="/" style="text-decoration:none;"><strong>Plume & Conseil</strong></a>
+      <nav>
+        <a href="/">Accueil</a>
+        <a href="a-propos.html" class="active">À propos</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>À propos</h1>
+    <p>Je m’appelle Victoria Fargier. Ma mission : <em>révéler le meilleur des autres</em>.
+    Une plume qui écoute, rassure, structure et met en lumière.</p>
+
+    <h2>Signature</h2>
+    <ul>
+      <li>Voix chaleureuse, humaine, directe</li>
+      <li>Style élégant, soutenu mais accessible</li>
+      <li>Des mots au service de l’expérience client</li>
+    </ul>
+  </main>
+
+  <footer class="site">© Plume & Conseil</footer>
+</body>
+</html>
