@@ -2,39 +2,53 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8" />
-  <title>Plume & Conseil — Des mots qui rassurent, relient et transforment</title>
-  <meta name="description" content="Plume & Conseil — Rédaction-conseil, image de marque et relation client. Une plume au service de l'humain." />
+  <title>Plume & Conseil — Rédaction-conseil, image de marque, relation client</title>
+  <meta name="description" content="Plume & Conseil : l’alliée bienveillante qui révèle le meilleur des autres. Des mots qui rassurent, relient et transforment." />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <style>
-    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin:0; line-height:1.6 }
-    header { padding: 56px 20px; text-align:center }
-    h1 { font-size: clamp(28px, 5vw, 44px); margin: 0 0 8px }
-    p.lead { font-size: clamp(16px, 2.8vw, 20px); margin: 0 0 24px }
-    .cta { display:inline-block; padding:12px 20px; border-radius:12px; text-decoration:none; border:1px solid #222 }
-    section { max-width: 880px; margin: 0 auto; padding: 20px }
-    ul { padding-left: 18px }
-    footer { text-align:center; padding: 32px 20px; color:#666; font-size:14px }
-  </style>
+  <meta property="og:title" content="Plume & Conseil" />
+  <meta property="og:description" content="Une plume au service de l’humain : rédaction-conseil, image de marque, relation client." />
+  <link rel="stylesheet" href="assets/styles.css" />
 </head>
 <body>
-  <header>
-    <h1>Plume & Conseil</h1>
-    <p class="lead">L’alliée bienveillante qui révèle le meilleur des autres.</p>
-    <a class="cta" href="#contact">Me contacter</a>
+  <header class="site">
+    <div class="container" style="display:flex;align-items:center;justify-content:space-between;">
+      <a href="/" style="text-decoration:none;"><strong>Plume & Conseil</strong></a>
+      <nav>
+        <a href="/" class="active">Accueil</a>
+        <a href="a-propos.html">À propos</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
   </header>
 
-  <section>
-    <h2>Ce que je fais</h2>
-    <ul>
-      <li>Rédaction-conseil &amp; image de marque</li>
-      <li>Relation client &amp; expérience de service</li>
-      <li>Contenus clairs, utiles et bien référencés</li>
-    </ul>
+  <main>
+    <section class="hero">
+      <h1>Les mots rassurent, relient, transforment.</h1>
+      <p class="lead">L’alliée bienveillante qui révèle le meilleur des autres.</p>
+      <a class="btn" href="contact.html">Me contacter</a>
+    </section>
 
-    <h2 id="contact">Contact</h2>
-    <p>Écrivez-moi&nbsp;: <a href="mailto:contact@exemple.com">contact@exemple.com</a></p>
-  </section>
+    <section class="container">
+      <div class="grid cols-3">
+        <div class="card">
+          <h2>Rédaction-conseil</h2>
+          <p>Des textes clairs, utiles, élégants — au service de votre marque et de vos clients.</p>
+        </div>
+        <div class="card">
+          <h2>Image de marque</h2>
+          <p>Positionnement, manifeste, messages clés : une identité qui inspire confiance.</p>
+        </div>
+        <div class="card">
+          <h2>Relation client</h2>
+          <p>Parcours simple, ton juste, scripts & FAQ : une expérience qui apaise et fidélise.</p>
+        </div>
+      </div>
+    </section>
+  </main>
 
-  <footer>© Plume & Conseil — Les mots rassurent, relient, transforment.</footer>
+  <footer class="site">
+    © Plume & Conseil — Une plume au service de l’humain.
+  </footer>
 </body>
 </html>
